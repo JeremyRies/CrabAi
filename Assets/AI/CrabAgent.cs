@@ -26,7 +26,7 @@ public class CrabAgent : Agent
 
    public override void AgentAction(float[] vectorAction, string textAction)
    {
-      transform.position += new Vector3(vectorAction[0], 0, 0);
+      transform.position += new Vector3(vectorAction[0], 0, 0) * Time.deltaTime;
 
       var sinceLastAction = Time.time - _lastActionTime;
       _lastActionTime = Time.time;
