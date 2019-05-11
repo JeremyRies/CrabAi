@@ -13,12 +13,13 @@ public class CrabAgent : Agent
       _rigidbody.velocity = Vector2.zero;
 
       var x = Random.Range(-4, -2);
-      transform.position = new Vector3(x, transform.position.y, transform.position.z);
+      var localPos = transform.localPosition;
+      transform.localPosition = new Vector3(x, localPos.y, localPos.z);
    }
 
    public override void CollectObservations()
    {
-      AddVectorObs(transform.position);
+      AddVectorObs(transform.localPosition);
       
       AddVectorObs(_ball.position);
       AddVectorObs(_ball.velocity);
@@ -26,7 +27,7 @@ public class CrabAgent : Agent
 
    public override void AgentAction(float[] vectorAction, string textAction)
    {
-      transform.position += new Vector3(vectorAction[0], 0, 0) * Time.deltaTime;
+      transform.localPosition += new Vector3(vectorAction[0], 0, 0) * Time.deltaTime;
 
       var sinceLastAction = Time.time - _lastActionTime;
       _lastActionTime = Time.time;

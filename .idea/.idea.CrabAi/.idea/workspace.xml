@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c196f7bd-4680-439c-aea4-8e0c4f650f93" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/AI/LearningBrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AI/LearningBrain.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Training.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Training.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AI/CrabAgent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AI/CrabAgent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AI/PlayerBrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AI/PlayerBrain.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ball.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ball.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Movement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,16 +17,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Ball.cs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/AI/CrabAcademy.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="17" selection-end-column="37" />
+            <state relative-caret-position="76">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
               <folding>
-                <marker date="1557572752129" expanded="false" signature="6:78" ph="..." />
-                <marker date="1557572752129" expanded="true" signature="113:482" ph="{...}" />
-                <marker date="1557572752129" expanded="true" signature="257:290" ph="{...}" />
-                <marker date="1557572752129" expanded="true" signature="319:480" ph="{...}" />
+                <marker date="1557569877083" expanded="true" signature="43:107" ph="{...}" />
+                <marker date="1557569877083" expanded="true" signature="84:105" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/AI/CrabAgent.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+              <folding>
+                <marker date="1557574321353" expanded="false" signature="6:34" ph="..." />
+                <marker date="1557574321353" expanded="true" signature="66:934" ph="{...}" />
+                <marker date="1557574321353" expanded="true" signature="243:450" ph="{...}" />
+                <marker date="1557574321353" expanded="true" signature="497:631" ph="{...}" />
+                <marker date="1557574321353" expanded="true" signature="709:932" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -32,51 +49,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScorePoint.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="76">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
               <folding>
-                <marker date="1557571763978" expanded="true" signature="59:398" ph="{...}" />
-                <marker date="1557571763978" expanded="true" signature="113:396" ph="{...}" />
-                <marker date="1557571763978" expanded="true" signature="203:253" ph="{...}" />
-                <marker date="1557571763978" expanded="true" signature="340:390" ph="{...}" />
+                <marker date="1557573269007" expanded="true" signature="59:398" ph="{...}" />
+                <marker date="1557573269007" expanded="true" signature="113:396" ph="{...}" />
+                <marker date="1557573269007" expanded="true" signature="203:253" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Ball.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="100" />
+            <state relative-caret-position="304">
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
               <folding>
-                <marker date="1557570456315" expanded="false" signature="6:78" ph="..." />
-                <marker date="1557570456315" expanded="true" signature="117:841" ph="{...}" />
-                <marker date="1557570456315" expanded="true" signature="686:839" ph="{...}" />
+                <marker date="1557574279720" expanded="false" signature="6:78" ph="..." />
+                <marker date="1557574279720" expanded="true" signature="113:487" ph="{...}" />
+                <marker date="1557574279720" expanded="true" signature="257:290" ph="{...}" />
+                <marker date="1557574279720" expanded="true" signature="319:485" ph="{...}" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/AI/CrabAgent.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" column="86" selection-start-line="14" selection-start-column="6" selection-end-line="15" selection-end-column="86" />
-              <folding>
-                <marker date="1557570961603" expanded="true" signature="6:34" ph="..." />
-                <marker date="1557570961603" expanded="true" signature="66:893" ph="{...}" />
-                <marker date="1557570961603" expanded="true" signature="243:419" ph="{...}" />
-                <marker date="1557570961603" expanded="true" signature="466:595" ph="{...}" />
-                <marker date="1557570961603" expanded="true" signature="673:891" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/AI/LearningBrain.asset">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -86,27 +82,28 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProjectSettings/TagManager.asset" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScorePoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ball.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Training.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AI.meta" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/AI/CrabAgent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/AI/LearningBrain.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AI/PlayerBrain.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AI/PlayerBrain.asset.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AI/LearningBrain.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AI/CrabAgent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AI/CrabAcademy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScorePoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectSettings/TagManager.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Training.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/ML-Agents/Scripts/LearningBrain.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Movement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CrabAcademy.cs" />
-        <option value="$PROJECT_DIR$/Assets/AI/CrabAgent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ball.cs" />
+        <option value="$PROJECT_DIR$/Assets/AI/CrabAgent.cs" />
       </list>
     </option>
   </component>
@@ -121,7 +118,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -137,11 +137,6 @@
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
               <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Plugins" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
               <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
             </path>
           </expand>
@@ -150,10 +145,7 @@
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
-      <pane id="FileSystemExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
+      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -254,7 +246,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5248000" />
+    <option name="totallyTimeSpent" value="5979000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -266,15 +258,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1571" height="1093" extended-state="6" />
+    <frame x="-7" y="-7" width="1865" height="1208" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12451577" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -290,6 +281,7 @@
       <window_info anchor="bottom" id="Unit Tests" order="12" />
       <window_info active="true" anchor="bottom" id="Terminal" order="13" visible="true" weight="0.35721704" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -325,27 +317,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CrabAcademy.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CrabAcademy.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/AI/LearningBrain.asset">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="100" />
-          <folding>
-            <marker date="1557570456315" expanded="false" signature="6:78" ph="..." />
-            <marker date="1557570456315" expanded="true" signature="117:841" ph="{...}" />
-            <marker date="1557570456315" expanded="true" signature="686:839" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Plugins/ML-Agents/Scripts/LearningBrain.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -384,40 +358,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScorePoint.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="76">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
           <folding>
-            <marker date="1557571763978" expanded="true" signature="59:398" ph="{...}" />
-            <marker date="1557571763978" expanded="true" signature="113:396" ph="{...}" />
-            <marker date="1557571763978" expanded="true" signature="203:253" ph="{...}" />
-            <marker date="1557571763978" expanded="true" signature="340:390" ph="{...}" />
+            <marker date="1557573269007" expanded="true" signature="59:398" ph="{...}" />
+            <marker date="1557573269007" expanded="true" signature="113:396" ph="{...}" />
+            <marker date="1557573269007" expanded="true" signature="203:253" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/AI/CrabAgent.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="86" selection-start-line="14" selection-start-column="6" selection-end-line="15" selection-end-column="86" />
+        <state relative-caret-position="247">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
           <folding>
-            <marker date="1557570961603" expanded="true" signature="6:34" ph="..." />
-            <marker date="1557570961603" expanded="true" signature="66:893" ph="{...}" />
-            <marker date="1557570961603" expanded="true" signature="243:419" ph="{...}" />
-            <marker date="1557570961603" expanded="true" signature="466:595" ph="{...}" />
-            <marker date="1557570961603" expanded="true" signature="673:891" ph="{...}" />
+            <marker date="1557573601502" expanded="false" signature="6:78" ph="..." />
+            <marker date="1557573601502" expanded="true" signature="111:120" ph="{...}" />
+            <marker date="1557573601502" expanded="true" signature="159:883" ph="{...}" />
+            <marker date="1557573601502" expanded="true" signature="276:881" ph="{...}" />
+            <marker date="1557573601502" expanded="true" signature="413:543" ph="{...}" />
+            <marker date="1557573601502" expanded="true" signature="476:533" ph="{...}" />
+            <marker date="1557573601502" expanded="true" signature="588:718" ph="{...}" />
+            <marker date="1557573601502" expanded="true" signature="650:708" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AI/CrabAcademy.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <marker date="1557569877083" expanded="true" signature="43:107" ph="{...}" />
+            <marker date="1557569877083" expanded="true" signature="84:105" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Ball.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="17" selection-end-column="37" />
+        <state relative-caret-position="304">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding>
-            <marker date="1557572752129" expanded="false" signature="6:78" ph="..." />
-            <marker date="1557572752129" expanded="true" signature="113:482" ph="{...}" />
-            <marker date="1557572752129" expanded="true" signature="257:290" ph="{...}" />
-            <marker date="1557572752129" expanded="true" signature="319:480" ph="{...}" />
+            <marker date="1557574279720" expanded="false" signature="6:78" ph="..." />
+            <marker date="1557574279720" expanded="true" signature="113:487" ph="{...}" />
+            <marker date="1557574279720" expanded="true" signature="257:290" ph="{...}" />
+            <marker date="1557574279720" expanded="true" signature="319:485" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AI/CrabAgent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+          <folding>
+            <marker date="1557574321353" expanded="false" signature="6:34" ph="..." />
+            <marker date="1557574321353" expanded="true" signature="66:934" ph="{...}" />
+            <marker date="1557574321353" expanded="true" signature="243:450" ph="{...}" />
+            <marker date="1557574321353" expanded="true" signature="497:631" ph="{...}" />
+            <marker date="1557574321353" expanded="true" signature="709:932" ph="{...}" />
           </folding>
         </state>
       </provider>

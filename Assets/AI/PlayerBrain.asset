@@ -25,7 +25,7 @@ MonoBehaviour:
   discretePlayerActions:
   - key: 276
     branchIndex: 0
-    value: -2
+    value: -5
   - key: 275
     branchIndex: 0
-    value: 2
+    value: 5

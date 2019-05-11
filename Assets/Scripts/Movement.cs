@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public interface IInputProvider
+{
+    
+}
+
 public class Movement : MonoBehaviour
 {
     public float Speed;

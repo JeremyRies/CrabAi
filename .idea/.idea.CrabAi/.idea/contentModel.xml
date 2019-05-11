@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Repos\CrabAi" t="IncludeRecursive">
+    <e p="C:\Users\JeremyRies\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\JeremyRies\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_CrabAi.-1366168762.00" t="ExcludeRecursive" />
+    <e p="C:\Users\JeremyRies\Desktop\Repositories\CrabAi" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
@@ -272,7 +274,5 @@
         <e p="bin" t="ExcludeRecursive" />
       </e>
     </e>
-    <e p="C:\Users\PhilippRabe\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\PhilippRabe\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_CrabAi.-1970048394.00" t="ExcludeRecursive" />
   </component>
 </project>
