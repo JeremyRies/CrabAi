@@ -15,7 +15,8 @@ public class Ball : MonoBehaviour
 
     public void ResetBall()
     {
-        transform.position = OriginPosition;
+        var x = Random.Range(-4, -2);
+        transform.position = new Vector3(x, OriginPosition.y, 0);
         Rigidbody2D.velocity = Vector3.zero;
     }
 }

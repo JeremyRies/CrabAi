@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c196f7bd-4680-439c-aea4-8e0c4f650f93" name="Default Changelist" comment="Added a Player Brain for playing ourselves">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CrabAi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CrabAi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Academy.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Academy.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+    <list default="true" id="c196f7bd-4680-439c-aea4-8e0c4f650f93" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/AI/LearningBrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AI/LearningBrain.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Training.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Training.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ball.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ball.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,31 +14,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Ball.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="128">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="17" selection-end-column="37" />
               <folding>
-                <marker date="1557568631057" expanded="false" signature="6:78" ph="..." />
-                <marker date="1557568631057" expanded="true" signature="113:423" ph="{...}" />
-                <marker date="1557568631057" expanded="true" signature="257:290" ph="{...}" />
-                <marker date="1557568631057" expanded="true" signature="319:421" ph="{...}" />
+                <marker date="1557572752129" expanded="false" signature="6:78" ph="..." />
+                <marker date="1557572752129" expanded="true" signature="113:482" ph="{...}" />
+                <marker date="1557572752129" expanded="true" signature="257:290" ph="{...}" />
+                <marker date="1557572752129" expanded="true" signature="319:480" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScorePoint.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="144">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
               <folding>
-                <marker date="1557571227177" expanded="true" signature="59:411" ph="{...}" />
-                <marker date="1557571227177" expanded="true" signature="113:409" ph="{...}" />
-                <marker date="1557571227177" expanded="true" signature="203:253" ph="{...}" />
-                <marker date="1557571227177" expanded="true" signature="353:403" ph="{...}" />
+                <marker date="1557571763978" expanded="true" signature="59:398" ph="{...}" />
+                <marker date="1557571763978" expanded="true" signature="113:396" ph="{...}" />
+                <marker date="1557571763978" expanded="true" signature="203:253" ph="{...}" />
+                <marker date="1557571763978" expanded="true" signature="340:390" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -65,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/AI/CrabAgent.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="240">
+              <caret line="15" column="86" selection-start-line="14" selection-start-column="6" selection-end-line="15" selection-end-column="86" />
               <folding>
                 <marker date="1557570961603" expanded="true" signature="6:34" ph="..." />
                 <marker date="1557570961603" expanded="true" signature="66:893" ph="{...}" />
@@ -86,6 +82,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -94,6 +91,7 @@
     <setting file="file://$PROJECT_DIR$/ProjectSettings/TagManager.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScorePoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ball.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Training.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AI.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AI/CrabAgent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs" root0="FORCE_HIGHLIGHTING" />
@@ -108,6 +106,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Movement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CrabAcademy.cs" />
         <option value="$PROJECT_DIR$/Assets/AI/CrabAgent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ball.cs" />
       </list>
     </option>
   </component>
@@ -244,11 +243,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557571034285</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Project can be built now">
+      <created>1557571752910</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1557571752910</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3605000" />
+    <option name="totallyTimeSpent" value="5248000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -263,7 +269,7 @@
     <frame x="-6" y="-6" width="1571" height="1093" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -278,11 +284,11 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="NuGet" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32917964" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32917964" />
       <window_info anchor="bottom" id="Unity" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Unit Tests" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="13" visible="true" weight="0.35721704" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -305,7 +311,8 @@
     <MESSAGE value="Added the collection of information" />
     <MESSAGE value="Added an action and reward logic" />
     <MESSAGE value="Added a Player Brain for playing ourselves" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a Player Brain for playing ourselves" />
+    <MESSAGE value="Project can be built now" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project can be built now" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -375,10 +382,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScorePoint.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <marker date="1557571763978" expanded="true" signature="59:398" ph="{...}" />
+            <marker date="1557571763978" expanded="true" signature="113:396" ph="{...}" />
+            <marker date="1557571763978" expanded="true" signature="203:253" ph="{...}" />
+            <marker date="1557571763978" expanded="true" signature="340:390" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/AI/CrabAgent.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="240">
+          <caret line="15" column="86" selection-start-line="14" selection-start-column="6" selection-end-line="15" selection-end-column="86" />
           <folding>
             <marker date="1557570961603" expanded="true" signature="6:34" ph="..." />
             <marker date="1557570961603" expanded="true" signature="66:893" ph="{...}" />
@@ -389,15 +409,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScorePoint.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Ball.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        <state relative-caret-position="128">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="17" selection-end-column="37" />
           <folding>
-            <marker date="1557571227177" expanded="true" signature="59:411" ph="{...}" />
-            <marker date="1557571227177" expanded="true" signature="113:409" ph="{...}" />
-            <marker date="1557571227177" expanded="true" signature="203:253" ph="{...}" />
-            <marker date="1557571227177" expanded="true" signature="353:403" ph="{...}" />
+            <marker date="1557572752129" expanded="false" signature="6:78" ph="..." />
+            <marker date="1557572752129" expanded="true" signature="113:482" ph="{...}" />
+            <marker date="1557572752129" expanded="true" signature="257:290" ph="{...}" />
+            <marker date="1557572752129" expanded="true" signature="319:480" ph="{...}" />
           </folding>
         </state>
       </provider>

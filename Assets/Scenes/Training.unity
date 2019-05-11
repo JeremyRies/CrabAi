@@ -327,8 +327,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 195961401}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3, y: -3.32, z: 0}
-  m_LocalScale: {x: 4.8065743, y: 0.25356367, z: 1}
+  m_LocalPosition: {x: 0.017, y: -3.32, z: 0}
+  m_LocalScale: {x: 10.843632, y: 0.25356367, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
@@ -559,7 +559,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41b757179b584204d999bb911a5087f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  brain: {fileID: 11400000, guid: 58c58e53fac20cb4392a3f74ef1fb0d9, type: 2}
+  brain: {fileID: 11400000, guid: 14773c37bff213540a241d7f36b5ccbc, type: 2}
   agentParameters:
     agentCameras: []
     agentRenderTextures: []
@@ -946,7 +946,8 @@ MonoBehaviour:
   broadcastHub:
     broadcastingBrains:
     - {fileID: 11400000, guid: 14773c37bff213540a241d7f36b5ccbc, type: 2}
-    _brainsToControl: []
+    _brainsToControl:
+    - {fileID: 11400000, guid: 14773c37bff213540a241d7f36b5ccbc, type: 2}
   maxSteps: 5000
   trainingConfiguration:
     width: 80
@@ -993,7 +994,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &1918070825
 BoxCollider2D:
   m_ObjectHideFlags: 0
