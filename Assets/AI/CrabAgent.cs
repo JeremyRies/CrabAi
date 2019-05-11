@@ -8,18 +8,12 @@ public class CrabAgent : Agent
 
    private float _lastActionTime;
 
-   private void Start()
-   {
-      AgentReset();
-   }
-
    public override void AgentReset()
    {
       _rigidbody.velocity = Vector2.zero;
 
-      var x = Random.Range(-2f, 2);
       var localPos = transform.localPosition;
-      transform.localPosition = new Vector3(x, localPos.y, localPos.z);
+      transform.localPosition = new Vector3(0, localPos.y, localPos.z);
    }
 
    public override void CollectObservations()
@@ -32,7 +26,8 @@ public class CrabAgent : Agent
 
    public override void AgentAction(float[] vectorAction, string textAction)
    {
-      transform.localPosition += new Vector3(vectorAction[0] * 20, 0, 0) * Time.deltaTime;
+      var newX = transform.localPosition.x + vectorAction[0] * 20 * Time.deltaTime;
+      transform.localPosition = new Vector3(Mathf.Clamp(newX, -4, 4), transform.localPosition.y, 0);
 
       var sinceLastAction = Time.time - _lastActionTime;
       _lastActionTime = Time.time;
