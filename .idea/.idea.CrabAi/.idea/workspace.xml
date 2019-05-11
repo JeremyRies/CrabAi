@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c196f7bd-4680-439c-aea4-8e0c4f650f93" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CrabAi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CrabAi/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/AI/CrabAgent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AI/CrabAgent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AI/LearningBrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AI/LearningBrain.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            <state relative-caret-position="288">
+              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="100" />
               <folding>
                 <marker date="1557568631060" expanded="false" signature="6:78" ph="..." />
                 <marker date="1557568631060" expanded="true" signature="117:594" ph="{...}" />
@@ -55,12 +57,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/AI/CrabAgent.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            <state relative-caret-position="336">
+              <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
               <folding>
-                <marker date="1557569562534" expanded="true" signature="6:34" ph="..." />
-                <marker date="1557569562534" expanded="true" signature="66:336" ph="{...}" />
-                <marker date="1557569562534" expanded="true" signature="158:334" ph="{...}" />
+                <marker date="1557570346255" expanded="true" signature="6:34" ph="..." />
+                <marker date="1557570346255" expanded="true" signature="66:876" ph="{...}" />
+                <marker date="1557570346255" expanded="true" signature="243:419" ph="{...}" />
+                <marker date="1557570346255" expanded="true" signature="466:595" ph="{...}" />
+                <marker date="1557570346255" expanded="true" signature="673:874" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -201,11 +205,25 @@
       <option name="project" value="LOCAL" />
       <updated>1557569269274</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Resetting the Agent to a random position">
+      <created>1557569615101</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557569615101</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added the collection of information">
+      <created>1557569838255</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1557569838255</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1444000" />
+    <option name="totallyTimeSpent" value="2309000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -258,7 +276,9 @@
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
     <MESSAGE value="Merge branch 'master' of https://github.com/JeremyRies/CrabAi&#10;&#10;# Conflicts:&#10;#&#9;.idea/.idea.CrabAi/.idea/vcs.xml&#10;#&#9;.idea/.idea.CrabAi/.idea/workspace.xml" />
     <MESSAGE value="Added first files for AI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added first files for AI" />
+    <MESSAGE value="Resetting the Agent to a random position" />
+    <MESSAGE value="Added the collection of information" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the collection of information" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -285,10 +305,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AI/LearningBrain.asset">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        <state relative-caret-position="288">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="100" />
           <folding>
             <marker date="1557568631060" expanded="false" signature="6:78" ph="..." />
             <marker date="1557568631060" expanded="true" signature="117:594" ph="{...}" />
@@ -299,17 +322,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/AI/LearningBrain.asset">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/AI/CrabAgent.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        <state relative-caret-position="336">
+          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
           <folding>
-            <marker date="1557569562534" expanded="true" signature="6:34" ph="..." />
-            <marker date="1557569562534" expanded="true" signature="66:336" ph="{...}" />
-            <marker date="1557569562534" expanded="true" signature="158:334" ph="{...}" />
+            <marker date="1557570346255" expanded="true" signature="6:34" ph="..." />
+            <marker date="1557570346255" expanded="true" signature="66:876" ph="{...}" />
+            <marker date="1557570346255" expanded="true" signature="243:419" ph="{...}" />
+            <marker date="1557570346255" expanded="true" signature="466:595" ph="{...}" />
+            <marker date="1557570346255" expanded="true" signature="673:874" ph="{...}" />
           </folding>
         </state>
       </provider>
