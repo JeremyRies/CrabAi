@@ -7,9 +7,6 @@ public class CrabAgent : Agent
    [SerializeField] private Rigidbody2D _rigidbody;
    [SerializeField] private Rigidbody2D _ball;
 
-   [SerializeField] private Side _playerSide;
-   [SerializeField] private Side _opponentSide;
-
    private Vector3 _startPosition;
    private float _lastActionTime;
 
@@ -37,12 +34,22 @@ public class CrabAgent : Agent
       var newX = transform.localPosition.x + vectorAction[0] * 20 * Time.deltaTime;
       transform.localPosition = new Vector3(Mathf.Clamp(newX, _startPosition.x - 4, _startPosition.x + 4), transform.localPosition.y, 0);
 
-      var sinceLastAction = Time.time - _lastActionTime;
+   
       _lastActionTime = Time.time;
-      
-      if (_playerSide.ContainsBall)
-         AddReward(-sinceLastAction);
-      if (_opponentSide.ContainsBall)
-         AddReward(sinceLastAction);
+   }
+
+   public void ScorePoint()
+   {
+      AddReward(GetTimeSinceLastAction());
+   }
+
+   public void LosePoint()
+   {
+      AddReward(-GetTimeSinceLastAction());
+   }
+
+   private float GetTimeSinceLastAction()
+   {
+      return Time.time - _lastActionTime;
    }
 }
