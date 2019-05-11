@@ -582,6 +582,7 @@ MonoBehaviour:
     onDemandDecision: 0
     numberOfActionsBetweenDecisions: 1
   _rigidbody: {fileID: 1035236344}
+  _ball: {fileID: 1052736015}
 --- !u!1 &1052736012
 GameObject:
   m_ObjectHideFlags: 0
