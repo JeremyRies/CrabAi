@@ -357,14 +357,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41b757179b584204d999bb911a5087f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  brain: {fileID: 11400000, guid: 58c58e53fac20cb4392a3f74ef1fb0d9, type: 2}
+  brain: {fileID: 11400000, guid: 14773c37bff213540a241d7f36b5ccbc, type: 2}
   agentParameters:
     agentCameras: []
     agentRenderTextures: []
     maxStep: 0
     resetOnDone: 1
     onDemandDecision: 0
-    numberOfActionsBetweenDecisions: 10
+    numberOfActionsBetweenDecisions: 1
   _rigidbody: {fileID: 742033528821859199}
   _ball: {fileID: 742033528871471752}
 --- !u!1 &742033528871471755
