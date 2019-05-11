@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class ScorePoint : MonoBehaviour
 {
-    [SerializeField] private CrabAgent _agent;
+    [SerializeField] private CrabAgent _player;
+    [SerializeField] private CrabAgent _opponent;
     
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -10,7 +11,8 @@ public class ScorePoint : MonoBehaviour
         if (ball != null)
         {
             ball.ResetBall();
-            _agent.Done();
+            _player.Done();
+            _opponent.Done();
         }
     }
 }

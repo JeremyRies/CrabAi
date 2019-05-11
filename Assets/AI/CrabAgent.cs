@@ -6,14 +6,18 @@ public class CrabAgent : Agent
    [SerializeField] private Rigidbody2D _rigidbody;
    [SerializeField] private Rigidbody2D _ball;
 
+   private Vector3 _startPosition;
    private float _lastActionTime;
+
+   private void Awake()
+   {
+      _startPosition = transform.localPosition;
+   }
 
    public override void AgentReset()
    {
       _rigidbody.velocity = Vector2.zero;
-
-      var localPos = transform.localPosition;
-      transform.localPosition = new Vector3(0, localPos.y, localPos.z);
+      transform.localPosition = _startPosition;
    }
 
    public override void CollectObservations()

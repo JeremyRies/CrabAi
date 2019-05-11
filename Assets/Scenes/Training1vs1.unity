@@ -168,6 +168,7 @@ MonoBehaviour:
     type: 3}
   _amount: 5
   _camera: {fileID: 519420031}
+  _size: 30
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -283,8 +284,7 @@ MonoBehaviour:
   broadcastHub:
     broadcastingBrains:
     - {fileID: 11400000, guid: 14773c37bff213540a241d7f36b5ccbc, type: 2}
-    _brainsToControl:
-    - {fileID: 11400000, guid: 14773c37bff213540a241d7f36b5ccbc, type: 2}
+    _brainsToControl: []
   maxSteps: 5000
   trainingConfiguration:
     width: 80
