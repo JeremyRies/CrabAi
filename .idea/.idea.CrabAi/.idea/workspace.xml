@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c196f7bd-4680-439c-aea4-8e0c4f650f93" name="Default Changelist" comment="">
+    <list default="true" id="c196f7bd-4680-439c-aea4-8e0c4f650f93" name="Default Changelist" comment="Added a Player Brain for playing ourselves">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CrabAi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CrabAi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AI/CrabAgent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AI/CrabAgent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AI/LearningBrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AI/LearningBrain.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Academy.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Academy.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,11 +33,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScorePoint.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="288">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding>
+                <marker date="1557571227177" expanded="true" signature="59:411" ph="{...}" />
+                <marker date="1557571227177" expanded="true" signature="113:409" ph="{...}" />
+                <marker date="1557571227177" expanded="true" signature="203:253" ph="{...}" />
+                <marker date="1557571227177" expanded="true" signature="353:403" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,29 +52,27 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
-              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="100" />
+              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="100" />
               <folding>
-                <marker date="1557568631060" expanded="false" signature="6:78" ph="..." />
-                <marker date="1557568631060" expanded="true" signature="117:594" ph="{...}" />
-                <marker date="1557568631060" expanded="true" signature="166:592" ph="{...}" />
-                <marker date="1557568631060" expanded="true" signature="244:289" ph="{...}" />
-                <marker date="1557568631060" expanded="true" signature="334:380" ph="{...}" />
+                <marker date="1557570456315" expanded="false" signature="6:78" ph="..." />
+                <marker date="1557570456315" expanded="true" signature="117:841" ph="{...}" />
+                <marker date="1557570456315" expanded="true" signature="686:839" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/AI/CrabAgent.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+            <state relative-caret-position="400">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
-                <marker date="1557570346255" expanded="true" signature="6:34" ph="..." />
-                <marker date="1557570346255" expanded="true" signature="66:876" ph="{...}" />
-                <marker date="1557570346255" expanded="true" signature="243:419" ph="{...}" />
-                <marker date="1557570346255" expanded="true" signature="466:595" ph="{...}" />
-                <marker date="1557570346255" expanded="true" signature="673:874" ph="{...}" />
+                <marker date="1557570961603" expanded="true" signature="6:34" ph="..." />
+                <marker date="1557570961603" expanded="true" signature="66:893" ph="{...}" />
+                <marker date="1557570961603" expanded="true" signature="243:419" ph="{...}" />
+                <marker date="1557570961603" expanded="true" signature="466:595" ph="{...}" />
+                <marker date="1557570961603" expanded="true" signature="673:891" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -82,14 +90,17 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/AI/CrabAgent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectSettings/TagManager.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScorePoint.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/AI/LearningBrain.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ball.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AI.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AI/CrabAgent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AI/LearningBrain.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AI/PlayerBrain.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AI/PlayerBrain.asset.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/ML-Agents/Scripts/LearningBrain.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -219,11 +230,25 @@
       <option name="project" value="LOCAL" />
       <updated>1557569838255</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added an action and reward logic">
+      <created>1557570452714</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1557570452714</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added a Player Brain for playing ourselves">
+      <created>1557571034285</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1557571034285</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2309000" />
+    <option name="totallyTimeSpent" value="3605000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -278,7 +303,9 @@
     <MESSAGE value="Added first files for AI" />
     <MESSAGE value="Resetting the Agent to a random position" />
     <MESSAGE value="Added the collection of information" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the collection of information" />
+    <MESSAGE value="Added an action and reward logic" />
+    <MESSAGE value="Added a Player Brain for playing ourselves" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a Player Brain for playing ourselves" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -291,13 +318,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScorePoint.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CrabAcademy.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
@@ -311,27 +331,73 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="100" />
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="100" />
           <folding>
-            <marker date="1557568631060" expanded="false" signature="6:78" ph="..." />
-            <marker date="1557568631060" expanded="true" signature="117:594" ph="{...}" />
-            <marker date="1557568631060" expanded="true" signature="166:592" ph="{...}" />
-            <marker date="1557568631060" expanded="true" signature="244:289" ph="{...}" />
-            <marker date="1557568631060" expanded="true" signature="334:380" ph="{...}" />
+            <marker date="1557570456315" expanded="false" signature="6:78" ph="..." />
+            <marker date="1557570456315" expanded="true" signature="117:841" ph="{...}" />
+            <marker date="1557570456315" expanded="true" signature="686:839" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/ML-Agents/Scripts/LearningBrain.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="190" selection-start-line="190" selection-end-line="190" />
+          <folding>
+            <marker date="1557568069870" expanded="false" signature="32:235" ph="..." />
+            <marker date="1557568069870" expanded="true" signature="255:9725" ph="{...}" />
+            <marker date="1557568069870" expanded="true" signature="289:334" ph="{...}" />
+            <marker date="1557568069870" expanded="true" signature="344:1139" ph="/// The Learning Brain works differently if you are training it or not. ... " />
+            <marker date="1557568069870" expanded="true" signature="1270:9723" ph="{...}" />
+            <marker date="1557568069870" expanded="true" signature="1816:1979" ph="[...]" />
+            <marker date="1557568069870" expanded="true" signature="2242:2404" ph="/// When Called, the brain will be controlled externally. It will not use the ... " />
+            <marker date="1557568069870" expanded="true" signature="2452:2506" ph="{...}" />
+            <marker date="1557568069870" expanded="true" signature="2587:2634" ph="{...}" />
+            <marker date="1557568069870" expanded="true" signature="2652:3083" ph="/// Initializes the Brain with the Model that it will use when selecting actions for ... " />
+            <marker date="1557568069870" expanded="true" signature="3129:5100" ph="{...}" />
+            <marker date="1557568069870" expanded="true" signature="3836:4568" ph="{...}" />
+            <marker date="1557568069870" expanded="true" signature="4585:4685" ph="{...}" />
+            <marker date="1557568069870" expanded="true" signature="5118:5648" ph="/// Return a list of failed checks corresponding to the failed compatibility checks ... " />
+            <marker date="1557568069870" expanded="true" signature="5706:6201" ph="{...}" />
+            <marker date="1557568069870" expanded="true" signature="6276:8558" ph="{...}" />
+            <marker date="1557568069870" expanded="true" signature="6317:6405" ph="{...}" />
+            <marker date="1557568069870" expanded="true" signature="6499:6551" ph="{...}" />
+            <marker date="1557568069870" expanded="true" signature="7445:7576" ph="{...}" />
+            <marker date="1557568069870" expanded="true" signature="8719:8990" ph="{...}" />
+            <marker date="1557568069870" expanded="true" signature="8848:8952" ph="{...}" />
+            <marker date="1557568069870" expanded="true" signature="9060:9374" ph="{...}" />
+            <marker date="1557568069870" expanded="true" signature="9156:9335" ph="{...}" />
+            <marker date="1557568069870" expanded="true" signature="9465:9625" ph="{...}" />
+            <marker date="1557568069870" expanded="true" signature="9520:9587" ph="{...}" />
+            <marker date="1557568069870" expanded="true" signature="9658:9710" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/AI/CrabAgent.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        <state relative-caret-position="400">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
-            <marker date="1557570346255" expanded="true" signature="6:34" ph="..." />
-            <marker date="1557570346255" expanded="true" signature="66:876" ph="{...}" />
-            <marker date="1557570346255" expanded="true" signature="243:419" ph="{...}" />
-            <marker date="1557570346255" expanded="true" signature="466:595" ph="{...}" />
-            <marker date="1557570346255" expanded="true" signature="673:874" ph="{...}" />
+            <marker date="1557570961603" expanded="true" signature="6:34" ph="..." />
+            <marker date="1557570961603" expanded="true" signature="66:893" ph="{...}" />
+            <marker date="1557570961603" expanded="true" signature="243:419" ph="{...}" />
+            <marker date="1557570961603" expanded="true" signature="466:595" ph="{...}" />
+            <marker date="1557570961603" expanded="true" signature="673:891" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScorePoint.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <marker date="1557571227177" expanded="true" signature="59:411" ph="{...}" />
+            <marker date="1557571227177" expanded="true" signature="113:409" ph="{...}" />
+            <marker date="1557571227177" expanded="true" signature="203:253" ph="{...}" />
+            <marker date="1557571227177" expanded="true" signature="353:403" ph="{...}" />
           </folding>
         </state>
       </provider>
