@@ -8,8 +8,8 @@ public class GameInitializer : MonoBehaviour
     [SerializeField] private GameObject _gameSetup;
     [SerializeField] private int _amount;
     [SerializeField] private Camera _camera;
+    [SerializeField] private float _size = 30f;
 
-    private float _size = 30f;
     void Start()
     {
         for (int i = 0; i < _amount; i++)
