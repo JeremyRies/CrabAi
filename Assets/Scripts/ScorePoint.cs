@@ -9,5 +9,11 @@ public class ScorePoint : MonoBehaviour
         {
             ball.ResetBall();
         }
+
+        var crabAgent = other.gameObject.GetComponent<CrabAgent>();
+        if (crabAgent != null)
+        {
+            crabAgent.Done();
+        }
     }
 }
