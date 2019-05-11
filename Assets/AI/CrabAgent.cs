@@ -26,7 +26,7 @@ public class CrabAgent : Agent
    {
       AddVectorObs(transform.localPosition);
       
-      AddVectorObs(_ball.position);
+      AddVectorObs((Vector2) _ball.transform.localPosition);
       AddVectorObs(_ball.velocity);
    }
 
