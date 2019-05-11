@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c196f7bd-4680-439c-aea4-8e0c4f650f93" name="Default Changelist" comment="Scaling training setups">
+    <list default="true" id="c196f7bd-4680-439c-aea4-8e0c4f650f93" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CrabAi/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CrabAi/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CrabAi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CrabAi/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/AI/CrabAgent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AI/CrabAgent.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/GameSetup1v1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/GameSetup1v1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Training1vs1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Training1vs1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScorePoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScorePoint.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,15 +66,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/AI/CrabAgent.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="240">
+              <caret line="36" column="38" lean-forward="true" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
               <folding>
-                <marker date="1557587984681" expanded="true" signature="6:34" ph="..." />
-                <marker date="1557587984681" expanded="true" signature="66:1066" ph="{...}" />
-                <marker date="1557587984681" expanded="true" signature="262:320" ph="{...}" />
-                <marker date="1557587984681" expanded="true" signature="358:458" ph="{...}" />
-                <marker date="1557587984681" expanded="true" signature="505:664" ph="{...}" />
-                <marker date="1557587984681" expanded="true" signature="742:1064" ph="{...}" />
+                <marker date="1557589368713" expanded="true" signature="6:58" ph="..." />
+                <marker date="1557589368713" expanded="true" signature="90:1754" ph="{...}" />
+                <marker date="1557589368713" expanded="true" signature="431:489" ph="{...}" />
+                <marker date="1557589368713" expanded="true" signature="527:627" ph="{...}" />
+                <marker date="1557589368713" expanded="true" signature="674:860" ph="{...}" />
+                <marker date="1557589368713" expanded="true" signature="900:958" ph="{...}" />
+                <marker date="1557589368713" expanded="true" signature="1002:1087" ph="{...}" />
+                <marker date="1557589368713" expanded="true" signature="1134:1184" ph="{...}" />
+                <marker date="1557589368713" expanded="true" signature="1262:1752" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -298,24 +301,26 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/TrainingJerry.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectSettings/TagManager.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScorePoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ball.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Training.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AI.meta" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/AI/Models.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AI/CrabAgent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/ML-Agents/Scripts/Agent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Prefab/GameSetup1v1.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AI/CrabAcademy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AI/LearningBrain.asset" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/AI/PlayerBrain.asset" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/AI/PlayerBrain.asset.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefab/GameSetup.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/ML-Agents/Scripts/LearningBrain.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameInitializer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/TrainingJerry.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Training.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Training1vs1.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AI/Models.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Prefab/GameSetup1v1.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AI/PlayerBrain.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AI/PlayerBrain.asset.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Side.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -325,6 +330,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Ball.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameInitializer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScorePoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Side.cs" />
         <option value="$PROJECT_DIR$/Assets/AI/CrabAgent.cs" />
       </list>
     </option>
@@ -483,11 +489,32 @@
       <option name="project" value="LOCAL" />
       <updated>1557576041989</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Resetting both Agents on scoring">
+      <created>1557588023195</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1557588023195</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Limiting the movement of the agents">
+      <created>1557588200177</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1557588200177</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Reward time in the opponent side">
+      <created>1557588926060</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1557588926060</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8641000" />
+    <option name="totallyTimeSpent" value="10095000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -502,7 +529,7 @@
     <frame x="-6" y="-6" width="1571" height="1093" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -516,7 +543,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="NuGet" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32917964" />
+      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32917964" />
       <window_info anchor="bottom" id="Unity" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Unit Tests" order="12" />
@@ -573,7 +600,10 @@
     <MESSAGE value="Project can be built now" />
     <MESSAGE value="Added first results of learning" />
     <MESSAGE value="Scaling training setups" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scaling training setups" />
+    <MESSAGE value="Resetting both Agents on scoring" />
+    <MESSAGE value="Limiting the movement of the agents" />
+    <MESSAGE value="Reward time in the opponent side" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reward time in the opponent side" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -690,17 +720,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Side.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding>
+            <marker date="1557588734315" expanded="true" signature="46:543" ph="{...}" />
+            <marker date="1557588734315" expanded="true" signature="86:541" ph="{...}" />
+            <marker date="1557588734315" expanded="true" signature="236:357" ph="{...}" />
+            <marker date="1557588734315" expanded="true" signature="413:535" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/AI/CrabAgent.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="240">
+          <caret line="36" column="38" lean-forward="true" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
           <folding>
-            <marker date="1557587984681" expanded="true" signature="6:34" ph="..." />
-            <marker date="1557587984681" expanded="true" signature="66:1066" ph="{...}" />
-            <marker date="1557587984681" expanded="true" signature="262:320" ph="{...}" />
-            <marker date="1557587984681" expanded="true" signature="358:458" ph="{...}" />
-            <marker date="1557587984681" expanded="true" signature="505:664" ph="{...}" />
-            <marker date="1557587984681" expanded="true" signature="742:1064" ph="{...}" />
+            <marker date="1557589368713" expanded="true" signature="6:58" ph="..." />
+            <marker date="1557589368713" expanded="true" signature="90:1754" ph="{...}" />
+            <marker date="1557589368713" expanded="true" signature="431:489" ph="{...}" />
+            <marker date="1557589368713" expanded="true" signature="527:627" ph="{...}" />
+            <marker date="1557589368713" expanded="true" signature="674:860" ph="{...}" />
+            <marker date="1557589368713" expanded="true" signature="900:958" ph="{...}" />
+            <marker date="1557589368713" expanded="true" signature="1002:1087" ph="{...}" />
+            <marker date="1557589368713" expanded="true" signature="1134:1184" ph="{...}" />
+            <marker date="1557589368713" expanded="true" signature="1262:1752" ph="{...}" />
           </folding>
         </state>
       </provider>

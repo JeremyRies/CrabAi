@@ -491,6 +491,7 @@ MonoBehaviour:
   _ball: {fileID: 742033528871471752}
   _playerSide: {fileID: 644199139283446740}
   _opponentSide: {fileID: 1684328969394203637}
+  _isRightPlayer: 0
 --- !u!1 &742033528871471755
 GameObject:
   m_ObjectHideFlags: 0
@@ -1715,3 +1716,4 @@ MonoBehaviour:
   _ball: {fileID: 742033528871471752}
   _playerSide: {fileID: 1684328969394203637}
   _opponentSide: {fileID: 644199139283446740}
+  _isRightPlayer: 1
