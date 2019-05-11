@@ -31,7 +31,7 @@ public class CrabAgent : Agent
    public override void AgentAction(float[] vectorAction, string textAction)
    {
       var newX = transform.localPosition.x + vectorAction[0] * 20 * Time.deltaTime;
-      transform.localPosition = new Vector3(Mathf.Clamp(newX, -4, 4), transform.localPosition.y, 0);
+      transform.localPosition = new Vector3(Mathf.Clamp(newX, _startPosition.x - 4, _startPosition.x + 4), transform.localPosition.y, 0);
 
       var sinceLastAction = Time.time - _lastActionTime;
       _lastActionTime = Time.time;
