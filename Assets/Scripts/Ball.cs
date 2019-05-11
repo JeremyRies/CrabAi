@@ -7,7 +7,7 @@ public class Ball : MonoBehaviour
     public Vector3 OriginPosition;
 
     public Rigidbody2D Rigidbody2D;
-    // Start is called before the first frame update
+
     void Start()
     {
         ResetBall();
@@ -15,7 +15,7 @@ public class Ball : MonoBehaviour
 
     public void ResetBall()
     {
-        var x = Random.Range(-4, -2);
+        var x = Random.Range(-2f, 2);
         transform.localPosition = new Vector3(x, OriginPosition.y, 0);
         Rigidbody2D.velocity = Vector3.zero;
     }

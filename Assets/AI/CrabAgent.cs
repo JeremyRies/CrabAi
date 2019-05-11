@@ -7,12 +7,17 @@ public class CrabAgent : Agent
    [SerializeField] private Rigidbody2D _ball;
 
    private float _lastActionTime;
-   
+
+   private void Start()
+   {
+      AgentReset();
+   }
+
    public override void AgentReset()
    {
       _rigidbody.velocity = Vector2.zero;
 
-      var x = Random.Range(-4, -2);
+      var x = Random.Range(-2f, 2);
       var localPos = transform.localPosition;
       transform.localPosition = new Vector3(x, localPos.y, localPos.z);
    }
