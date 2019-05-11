@@ -1,10 +1,14 @@
-﻿using MLAgents;
+﻿using DefaultNamespace;
+using MLAgents;
 using UnityEngine;
 
 public class CrabAgent : Agent
 {
    [SerializeField] private Rigidbody2D _rigidbody;
    [SerializeField] private Rigidbody2D _ball;
+
+   [SerializeField] private Side _playerSide;
+   [SerializeField] private Side _opponentSide;
 
    private Vector3 _startPosition;
    private float _lastActionTime;
@@ -35,6 +39,10 @@ public class CrabAgent : Agent
 
       var sinceLastAction = Time.time - _lastActionTime;
       _lastActionTime = Time.time;
-      AddReward(sinceLastAction);
+      
+      if (_playerSide.ContainsBall)
+         AddReward(-sinceLastAction);
+      if (_opponentSide.ContainsBall)
+         AddReward(sinceLastAction);
    }
 }
