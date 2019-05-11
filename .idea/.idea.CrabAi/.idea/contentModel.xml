@@ -261,6 +261,7 @@
           <e p="GameInitializer.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
           <e p="ScorePoint.cs" t="Include" />
+          <e p="Side.cs" t="Include" />
         </e>
       </e>
       <e p="CrabAi.sln" t="IncludeFlat" />

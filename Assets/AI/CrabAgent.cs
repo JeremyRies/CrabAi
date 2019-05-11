@@ -7,6 +7,8 @@ public class CrabAgent : Agent
    [SerializeField] private Rigidbody2D _rigidbody;
    [SerializeField] private Rigidbody2D _ball;
 
+   [SerializeField] private bool _isRightPlayer;
+
    private Vector3 _startPosition;
    private float _lastActionTime;
 
@@ -23,15 +25,30 @@ public class CrabAgent : Agent
 
    public override void CollectObservations()
    {
-      AddVectorObs(transform.localPosition);
+      AddVectorObs(InvertX(transform.localPosition));
       
-      AddVectorObs((Vector2) _ball.transform.localPosition);
-      AddVectorObs(_ball.velocity);
+      AddVectorObs(InvertX((Vector2) _ball.transform.localPosition));
+      AddVectorObs(InvertX(_ball.velocity));
+   }
+
+   private float InvertX(float scalar)
+   {
+      return _isRightPlayer ? -scalar : scalar;
+   }
+
+   private Vector2 InvertX(Vector2 vector)
+   {
+      return new Vector2(_isRightPlayer ? -vector.x : vector.x, vector.y);
+   }
+   
+   private Vector3 InvertX(Vector3 vector)
+   {
+      return InvertX((Vector2) vector);
    }
 
    public override void AgentAction(float[] vectorAction, string textAction)
    {
-      var newX = transform.localPosition.x + vectorAction[0] * 20 * Time.deltaTime;
+      var newX = transform.localPosition.x + InvertX(vectorAction[0]) * 20 * Time.deltaTime;
       transform.localPosition = new Vector3(Mathf.Clamp(newX, _startPosition.x - 4, _startPosition.x + 4), transform.localPosition.y, 0);
 
    
